@@ -51,24 +51,3 @@ def exibir_usuarios(lista_usuarios):
         for contato in usuario['Contatos de Confiança']:
             print(f"Pessoa de Confiança: {contato['Nome']}, Telefone: {contato['Telefone']}")
 
-def menu():
-    usuarios = []
-    while True:
-        print("\n Menu de Cadastro")
-        print("1. Cadastrar novo usuário")
-        print("2. Exibir Usuários")
-        print("3. Sair")
-        opcoes = input("Escolha uma opção (1/2/3): ")
-
-        if opcoes == "1":
-            cadastrar_usuario(usuarios)
-        elif opcoes == "2":
-            exibir_usuarios(usuarios)
-        elif opcoes == "3":
-            print("Saindo do programa. Até logo!")
-            break
-        else:
-            print("Opção inválida. Tente novamente.")
-
-if __name__ == "__main__":
-    menu()
