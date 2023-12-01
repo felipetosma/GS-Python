@@ -1,0 +1,17 @@
+Integrantes:
+FELIPE AMADOR MATOS-RM553528
+IZIS DE FÁTIMA-RM553759
+PEDRO HENRIQUE ARAUJO-RM553801
+
+
+Descrição do projeto
+“Como podemos usar a inteligência artificial, a automação, a análise de dados e de outras tecnologias emergentes para melhorar a prevenção de doenças, tornar a assistência médica mais acessível e precisa, e promover a saúde de maneira geral?” 
+No contexto da saúde no Brasil, a ineficiência no sistema de ambulâncias é uma questão crítica que impacta diretamente a rapidez e eficácia do atendimento médico, muitas vezes resultando em consequências graves. Desafios como congestionamentos, falta de infraestrutura e limitações de recursos podem comprometer a prontidão das equipes de emergência. Contudo, vislumbra-se uma solução promissora ao explorar a sinergia entre a medicina e a tecnologia. Os relógios inteligentes surgem como aliados valiosos, capacitando uma resposta mais ágil por meio da transmissão instantânea de dados sobre a localização e condição do paciente. Essa integração tecnológica não apenas supera obstáculos enfrentados pelas ambulâncias, mas também serve como uma ponte para a proposta de um aplicativo inovador, o qual pode otimizar ainda mais a coordenação entre os serviços de emergência e a comunidade, agilizando o processo de assistência médica.
+Dada a seguinte problemática o projeto S.M.M(Sistema médico de monitoramento) visamos realizar a criação de uma aplicação para smartwatch com ênfase no monitoramento de qualidade de vida e acompanhamento em tempo real da saúde do usuário, onde tanto o paciente quanto a pessoa de confiança previamente adicionada podem ter acesso a tais parâmetros. Nossa aplicação Integrada com a IoT por meio dos smartwatch e aplicativos de monitoramento existentes. O serviço da S.M.M seria instalado no device do usuário e iria realizar um monitoramento constante de diversos parâmetros, como BPM, taxa de oxigenação do sangue, taxa de ingestão de líquidos, pressão arterial dentre outros, iremos também realizar uma integração com o serviço da FreeStyle Libre, sensor que capta parâmetros da insulina da pessoa no caso de possuir diabetes ou hipoglicemia. No caso de alteração destes parâmetros por tempo superior ao usual, o app da S.M.M enviará notificações para o usuário e para a pessoa de confiança cadastrada  em nossa plataforma e para o celular e smartwatch do usuário, onde a  mesma pode acessar os parâmetros de forma remota, caso o usuário não responder a notificação o socorro será chamado, Na situação do usuário necessitar de uma ambulância a pessoa de confiança é notificada e é apresentado qual a distância em tempo real da ambulância até o usuário, sendo tal informação mostrada tanto no celular da pessoa autorizada quanto do usuário, é possível manter contato com um socorrista de plantão para o atendimento de primeiros socorros enquanto a ambulância está a caminho, além do relatório de emergência que é enviado ao paramédico para saber qual a situação em tempo real do paciente, juntamente com a ficha médica de emergência que é idealizada  para  a notificação de possíveis alergias a medicamentos ou medidas que não podem ser tomadas ou alguma condição especial do usuário.
+
+ 
+Lista de requisitos
+
+- Primeiramente colocamos o menu para da a opção de novos usuários se cadastrarem
+- Dentro deste cadastro demos a opção de ele cadastrar pessoas de confiança para serem notificadas no caso de uma emergência com a saúde dele.
+- Este cadastro ficará gravado no sistema e a partir do menu, poderá exibir os usuários cadastrados e suas pessoas de confiança.
