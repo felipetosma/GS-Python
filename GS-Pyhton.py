@@ -18,3 +18,5 @@ def cadastrar_usuario(lista_usuarios):
         resp = int(input("Mais alguma doença? (1) - Não(0): "))
         doencas_em_tratamento.append(doencas_tratamento)
 
+     # Adicionar pessoas de confiança ou não:
+
