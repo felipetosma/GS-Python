@@ -7,7 +7,13 @@ def cadastrar_usuario(lista_usuarios):
         data_nascimento = input("Digite a data de nascimento do usuário (DD/MM/AAAA): ")
         if (len(data_nascimento) != 10 or data_nascimento[2] != '/' or data_nascimento[5] != '/'):
             print("Formato de data inválido. Tente novamente.")
+
+    tipos_sanguineos_validos = ["A+", "A-", "B+", "B-", "AB+", "AB-", "O+", "O-"]
     tipo_sanguineo = input("Digite o tipo sanguíneo do usuário: ")
+    while (tipo_sanguineo not in tipos_sanguineos_validos):
+        print("Tipo sanguíneo inválido. Por favor, insira um tipo sanguíneo válido.")
+        tipo_sanguineo = input("Digite o tipo sanguíneo do usuário: ").upper()
+
     telefone = input("Digite o telefone do usuário: ")
 
     # Lista para doenças em tratamento:
